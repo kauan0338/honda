@@ -72,21 +72,27 @@ h3{
   @media screen and (max-width: 786px) {
     .container h1{
         font-size:30px ;
+        text-align: center;
+        margin: 0 auto;
     }
 .container{
     flex-wrap: wrap;
 }
 .botao{
-    width: 300px;
-    padding: 14px; 
+    width: 250px;
+    padding: 12px; 
     margin: 0 auto;
     text-align: center;
+    margin-top: 13px;
+   
 }
     #sobre h2{
         color: #202020;
         font-size: 20px;
         font-weight: 200;
         text-align: center;
-    
     } 
+    p{
+        text-align: center;
+    }
 }
