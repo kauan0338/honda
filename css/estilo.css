@@ -68,5 +68,25 @@ h3{
     font-size: 24px;
     text-align: left;
     font-size: bold;
-
   }
+  @media screen and (max-width: 786px) {
+    .container h1{
+        font-size:30px ;
+    }
+.container{
+    flex-wrap: wrap;
+}
+.botao{
+    width: 300px;
+    padding: 14px; 
+    margin: 0 auto;
+    text-align: center;
+}
+    #sobre h2{
+        color: #202020;
+        font-size: 20px;
+        font-weight: 200;
+        text-align: center;
+    
+    } 
+}
